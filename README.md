@@ -1,2 +1,2 @@
-# CURSO.JS
+# javascript
  Curso de javaScript do Curso em Vídeo
