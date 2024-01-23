@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas para o meu amor</title>
+    
+</head>
+<style>
+    body{background-color: black;
+    color: aliceblue;}
+    div#area11{
+        background-color: deeppink;
+        color:aliceblue;
+        font: normal 15pt Arial;
+        width: 100pt;
+        height: 100pt;
+        line-height: 100px;
+        text-align: center;
+        display: inline-block
+        
+    }
+    div#areaes{
+        background-color: deeppink;
+        color: aliceblue;
+        font: normal 15pt Arial;
+        width: 100pt;
+        height: 100pt;
+        line-height: 75pt;
+        text-align: center;
+        display: inline-block
+        
+    }
+    
+</style>
+<body>
+    <h1>Vamo nos ver hoje?</h1>
+    <div id="area11"> 
+        SIM
+    </div>
+    <script>
+        var a = window.document.getElementById('area11')
+        a.addEventListener('click',clicars)
+        function clicars() {
+           a.innerText = 'Otimo' 
+           a.style.background = 'green'
+        }
+    </script>
+    <div id="areaes">
+        NÃO
+    </div>
+    <script>
+        var b = window.document.getElementById('areaes')
+        b.addEventListener('click',clicarn)
+        function clicarn() {
+            b.innerText = 'Péssimo'
+            b.style.background = 'red'
+    
+        }
+    </script>
+    <style>
+    
+        div#area2{
+            background-color: deeppink;
+            color: aliceblue;
+            font: normal 15pt Arial;
+            width: 100pt;
+            height: 100pt;
+            line-height: 75pt;
+            text-align: center;
+            display: inline-block
+        
+        }
+        div#areaes2{
+            background-color: deeppink;
+            color: aliceblue;
+            font: normal 15pt Arial;
+            width: 100pt;
+            height: 100pt;
+            line-height: 75pt;
+            text-align: center;
+            display: inline-block
+        
+        }
+    
+    </style>
+    <body>
+        <h1>Qual sua Preferência do que iremos fazer hoje?</h1>
+        <div id="area2">
+        SIM
+    </div>
+    <script>
+        var a= window.document.getElementById('area2')
+        a.addEventListener('click',clicarss)
+        function clicarss(){
+        a.innerText = 'Ótimo'
+        a.style.background = 'green'
+        }
+    </script>
+    <div id="areaes2">
+        NÃO
+    </div>
+    <script>
+        var a= window.document.getElementById('areaes2')
+        a.addEventListener('click',clicarrs)
+        function clicarrs() {
+        a.innerText = 'Péssimo'
+        a.style.background = 'red'   
+        }
+    </script>
+
+    
+</body>
+
+</html>

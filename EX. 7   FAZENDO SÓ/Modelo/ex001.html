@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <header>
+        <h1>Soma, média, max. e min. dos Números</h1>
+    </header>
+    <section>
+        <div>
+            Número (entre 1 e 100):
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <p><select name="list" id="flist" size="6"></select></p>
+            <input type="button" value="Finalizar"onclick="flz()">
+            
+        </div>
+        <div id="res">
+            Caululando...
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy;CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

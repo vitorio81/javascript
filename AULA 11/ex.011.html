@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<h1>
+   Vamos ver de onde você é! 
+</h1>
+<body>
+    <style>
+        body{ background-color:black;
+        color: white;}
+    </style>
+    Digite o país onde você nasceu: <input type="search" name="txtvel" id="txtvel">
+    <input type="button" value="Verificar" onclick="caucular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function caucular() {
+            var txtv = window.document.querySelector('input#txtvel')
+            var res  = window.document.querySelector('div#res')
+            var vel = String(txtv.value)
+            res.innerHTML =`<p>O país onde você mora é: ${vel}</p>`
+            if (vel == "Brasil") {
+                res.innerHTML +='Você é brasileiro'
+            } else if (vel != String) {
+                res.innerHTML +='Você precisa escolher um país'
+            } else {
+                innerHTML += 'Você é estrangeiro'
+            }
+        } 
+        
+    
+    </script>
+
+
+    
+</body>
+</html>
